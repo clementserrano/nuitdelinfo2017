@@ -9,17 +9,28 @@ Installer :
 Lancer "(chemin d'install)/MongoDB/Server/3.4/bin/`mongod.exe`" 
 Les commandes mongo peuvent se faire par le shell (mongo.exe) pour en installant un client (Robot 3T).
 
+Mettre à jour les libraries npm : 
+```
+npm update
+```
+
 Lancer un build du front-end (dans nuitdelinfo2017) : 
-`ng build`
+```
+ng build
+```
 
 Puis lancer le serveur : 
-`node server.js`
+```
+node server.js
+```
 
 L'application est lancer sur l'url :
  http://localhost:3000/
 
 Pour voir les modifs du front sans rebuild lancer : 
-`npm start`
+```
+npm start
+```
 L'app en dev est sur http://localhost:4200/
 
 Pour créer un dump de la base de données :
