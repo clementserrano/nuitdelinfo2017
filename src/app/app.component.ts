@@ -7,12 +7,8 @@ import { DataService } from './data.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'nuitdelinfo2017';
-
-  users: Array<any>;
-
+  
   constructor(private _dataService: DataService){
-    this._dataService.getUsers()
-      .subscribe(res => this.users = res);
+    
   }
 }

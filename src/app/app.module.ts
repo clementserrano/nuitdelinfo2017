@@ -1,19 +1,28 @@
+// Modules
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
-import { AppComponent } from './app.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpModule } from '@angular/http';
+
+// Services
 import { DataService } from './data.service';
+
+// Component
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { AccueilComponent } from './accueil/accueil.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AccueilComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule,
+    NgbModule.forRoot()
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
