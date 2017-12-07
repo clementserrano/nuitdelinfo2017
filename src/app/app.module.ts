@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpModule } from '@angular/http';
+import { AgmCoreModule } from '@agm/core';
 
 // Services
 import { DataService } from './data.service';
@@ -27,7 +28,10 @@ import { FirstAidsComponent } from './firstAids/firstAids.component';
     BrowserModule,
     HttpModule,
     AppRoutingModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBjj0UhymBQx2vR4v30HAdzA_xE6wQmieg'
+    })
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
