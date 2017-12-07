@@ -12,13 +12,16 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { AccueilComponent } from './accueil/accueil.component';
 import { MapComponent } from './map/map.component';
-
+import { EmergencyComponent } from './emergency/emergency.component';
+import { FirstAidsComponent } from './firstAids/firstAids.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
-    MapComponent
+    MapComponent,
+    EmergencyComponent,
+    FirstAidsComponent
   ],
   imports: [
     BrowserModule,
