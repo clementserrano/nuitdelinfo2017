@@ -5,8 +5,10 @@ import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpModule } from '@angular/http';
 import {PanelModule} from 'primeng/primeng';
+import {InputTextareaModule} from 'primeng/primeng';
+import {ButtonModule} from 'primeng/primeng';
 import { AgmCoreModule } from '@agm/core';
-
+import { FormsModule } from '@angular/forms';
 
 // Services
 import { DataService } from './data.service';
@@ -33,8 +35,11 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
     BrowserModule,
     BrowserAnimationsModule,
     HttpModule,
+    FormsModule,
     AppRoutingModule,
     PanelModule,
+    InputTextareaModule,
+    ButtonModule,
     NgbModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBjj0UhymBQx2vR4v30HAdzA_xE6wQmieg'

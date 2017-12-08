@@ -1,3 +1,9 @@
 <p-panel header="ChatBot">
-  Le chat bot
+    <textarea pInputTextarea [(ngModel)]="chatText" readonly="true" rows="15" class="chat"></textarea>
+    <form (ngSubmit)="onSend()">
+        <div class="ui-inputgroup">
+            <input type="text" pInputText placeholder="Envoyer un message" class="chat" [(ngModel)]="chatInput" name="chatInput" />    
+            <button pButton class="ui-inputgroup-addon" icon="fa fa-comment" type="submit"></button>     
+        </div>
+    </form>
 </p-panel>
