@@ -1,12 +1,14 @@
-Plaie
+﻿Plaie
 
 Traitement
 
-	Stoppez l'hémorragie éventuelle par compression locale prolongée, compression à distance et si nécessaire par garrot.
+	Stoppez l'hémorragie éventuelle par compression locale prolongée, compression à
+	distance et si nécessaire par garrot.
 
 	N'essayez pas de désinfecter la plaie. N'enlevez surtout pas un éventuel corps étranger.
 
-	Allongez systématiquement le patient tête basse, sauf si il présente une plaie du thorax avec gène respiratoire. Dans ce cas il doit être placé en position demi-assise.
+	Allongez systématiquement le patient tête basse, sauf si il présente une plaie du thorax
+	avec gène respiratoire. Dans ce cas il doit être placé en position demi-assise.
 
 	Position semi-assise
 

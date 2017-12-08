@@ -1,11 +1,15 @@
-Hémorragie :
+﻿Hémorragie :
 
 Traitement
 
-	. Allonger la victime, tête basse pour faciliter l'irrigation de son cerveau (ou exceptionellement en position demi-assise dans le cas des plaies graves du thorax avec gène respiratoire).
+	. Allonger la victime, tête basse pour faciliter l'irrigation de son cerveau
+	(ou exceptionellement en position demi-assise dans le cas des plaies graves du
+	thorax avec gène respiratoire).
 	. Arrêter l'hémorragie :
-		- en comprimant directement l'endroit qui saigne jusqu'à l'arrivée des secours,
-		- si cela n'est pas possible, ou si cela ne suffit pas, en comprimant à distance, au niveau d'un point de compression,
+		- en comprimant directement l'endroit qui saigne jusqu'à l'arrivée
+		des secours,
+		- si cela n'est pas possible, ou si cela ne suffit pas, en comprimant à
+		distance, au niveau d'un point de compression,
 		- si cela ne suffit toujours pas, en posant un garrot.
 	. Faire donner l'alerte.
 	
@@ -13,39 +17,68 @@ Technique : La compression directe
 
 	Technique rapide et facile, elle suffit dans la plupart des cas pour arrêter le saignement.
 
-	En l'absence de corps étranger dans la plaie, s'il n'y a pas de fracture ouverte et si la plaie est de petite taille (moins large que la main) :
+	En l'absence de corps étranger dans la plaie, s'il n'y a pas de fracture
+	ouverte et si la plaie est de petite taille (moins large que la main) :
 
-	Assurez-vous que ses jambes sont allongés côte à côte. Si ce n'est pas le cas, rapprochez-les délicatement l'une de l'autre, dans l'axe du corps de la victime.
+	Assurez-vous que ses jambes sont allongés côte à côte. Si ce n'est pas le cas,
+	rapprochez-les délicatement l'une de l'autre, dans l'axe du corps de la victime.
 
 
-	Comprimez directement le point de saignement avec les doigts ou avec la main (si possible protégée par un gant ou un plastique).
+	Comprimez directement le point de saignement avec les doigts ou avec la main
+	(si possible protégée par un gant ou un plastique).
 
-	Demandez à un témoin un linge propre (jamais d'ouate) que vous placerez entre la plaie et votre main (Ce linge n'est pas stérile, mais l'arrêt de l'hémorragie prime sur les risques d'infection).
+	Demandez à un témoin un linge propre (jamais d'ouate) que vous placerez entre
+	la plaie et votre main (Ce linge n'est pas stérile, mais l'arrêt de l'hémorragie prime sur les risques d'infection).
 	compression manuelle d'une hemorragie externe
 
-	Si le point de saignement se situe sur un membre et sauf en cas de fracture de ce membre, maintenez ce membre en position surélevée par rapport au cœur.
+	Si le point de saignement se situe sur un membre et sauf en cas de fracture de
+	ce membre, maintenez ce membre en position surélevée par rapport au cœur.
 
-	Si la compression manuelle ne suffit pas à arrêter l'hémorragie, changez la position de votre main, la surface et la force d'appui.
-	Si cela est toujours insuffisant demandez à un témoin de continuer malgré tout la compression manuelle et appliquez la technique de compression à distance ou mieux mettez en place un garrot.
-	Si l'hémorragie s'arrête avec la compression manuelle, maintenez cette compression pendant au moins 10 minutes. Installez ensuite un pansement compressif qui doit être efficace et empêcher la reprise de l'hémorragie. N'hésitez pas à le serrer davantage si nécessaire.
-	Si l'hémorragie se fait par saccades et reprend après une dizaine de minutes de compression manuelle de la plaie, il s'agit d'une plaie artérielle. Il y a des risques qu'un pansement compressif soit insuffisant pour arrêter l'hémorragie. Vous pouvez cependant essayer mais sans insister. La doctrine officielle est de stopper l'hémorragie par compression à distance. Cette manoeuvre est cependant difficile à réaliser dans le contexte dramatique d'une plaie artérielle. En outre elle est pratiquement impossible à maintenir plus d'une dizaine de minutes. Si les secours doivent mettre plus de temps pour arriver, il est raisonnable de mettre en place un garrot au niveau de la cuisse ou du bras. Ce garrot sera placé par un autre sauveteur pendant que le premier continue la compression. (Source : Professeur J.P. MEYRUEIS)
+	Si la compression manuelle ne suffit pas à arrêter l'hémorragie, changez la position
+	de votre main, la surface et la force d'appui.
+	Si cela est toujours insuffisant demandez à un témoin de continuer malgré tout la compression
+	manuelle et appliquez la technique de compression à distance ou mieux mettez en place un garrot.
+	Si l'hémorragie s'arrête avec la compression manuelle, maintenez cette compression pendant
+	au moins 10 minutes. Installez ensuite un pansement compressif qui doit être efficace et
+	empêcher la reprise de l'hémorragie. N'hésitez pas à le serrer davantage si nécessaire.
+	Si l'hémorragie se fait par saccades et reprend après une dizaine de minutes de compression
+	manuelle de la plaie, il s'agit d'une plaie artérielle. Il y a des risques qu'un pansement
+	compressif soit insuffisant pour arrêter l'hémorragie. Vous pouvez cependant essayer mais
+	sans insister. La doctrine officielle est de stopper l'hémorragie par compression à distance.
+	Cette manoeuvre est cependant difficile à réaliser dans le contexte dramatique d'une plaie
+	artérielle. En outre elle est pratiquement impossible à maintenir plus d'une dizaine de minutes.
+	Si les secours doivent mettre plus de temps pour arriver, il est raisonnable de mettre en place
+	un garrot au niveau de la cuisse ou du bras. Ce garrot sera placé par un autre sauveteur pendant que
+	le premier continue la compression. (Source : Professeur J.P. MEYRUEIS)
 	
 	Remarques :
 
-		. Les plaies du poignet, de la main et du pied saignent beaucoup mais l'hémorragie, même artérielle s'arrête toujours par un simple pansement compressif. Il n'y a pas à ce niveau d'indication de garrot.
-		. Au niveau du cou il est impossible de réaliser un pansement compressif. La compression manuelle devra donc être maintenue.
+		. Les plaies du poignet, de la main et du pied saignent beaucoup mais l'hémorragie,
+	même artérielle s'arrête toujours par un simple pansement compressif.
+	Il n'y a pas à ce niveau d'indication de garrot.
+		. Au niveau du cou il est impossible de réaliser un pansement
+	compressif. La compression manuelle devra donc être maintenue.
 	
-	Si la plaie est très large et impossible à comprimer avec la main , installez d'emblée un garrot si le saignement se fait en jets saccadés, ou un large pansement compressif dans les autres cas. Une compression à distance temporaire par un témoin vous aidera à faire le pansement ou à installer le garrot.
+	Si la plaie est très large et impossible à comprimer avec la main , installez d'emblée
+	un garrot si le saignement se fait en jets saccadés, ou un large pansement compressif
+	dans les autres cas. Une compression à distance temporaire par un témoin vous aidera à
+	faire le pansement ou à installer le garrot.
 
-	N'essayez pas d'enlever un corps étranger profondément enfoncé dans une plaie car cela risque de déclencher une hémorragie très importante. Il ne sera enlevé qu'en salle d'opération.
+	N'essayez pas d'enlever un corps étranger profondément enfoncé dans une
+	plaie car cela risque de déclencher une hémorragie très importante. Il ne
+	sera enlevé qu'en salle d'opération.
 	
 	
 Technique : Le pansement compressif
 
-	La substitution de la compression manuelle par le pansement compressif doit être la plus rapide possible. La mise en place de ce dernier doit observer les principes suivants :
+	La substitution de la compression manuelle par le pansement compressif doit être la plus
+	rapide possible. La mise en place de ce dernier doit observer les principes suivants :
 
 		. Les compresses ou le linge propre doivent recouvrir complètement la plaie qui saigne.
-		. La bande (foulard, cravate, ceinture, serviette ...) qui maintient le tissu mis en place sur la plaie doit recouvrir complètement celui-ci et être assez longue pour faire au moins deux tours.
-		. La bande doit exercer une pression suffisante pour éviter que le saignement reprenne. Il faut toutefois veiller à ne pas trop la serrer (l'extrémité du membre ne doit devenir ni froide ni violacée).
+		. La bande (foulard, cravate, ceinture, serviette ...) qui maintient le tissu mis en
+	place sur la plaie doit recouvrir complètement celui-ci et être assez longue pour faire au moins deux tours.
+		. La bande doit exercer une pression suffisante pour éviter que le saignement reprenne.
+	Il faut toutefois veiller à ne pas trop la serrer (l'extrémité du membre ne doit devenir ni froide ni violacée).
 
-	Ne retirez pas le pansement qui se trouve au contact de la plaie, même s'il est imbibé de sang, vous risqueriez d'arracher les caillots en cours de formation et de relancer l'hémorragie.
+	Ne retirez pas le pansement qui se trouve au contact de la plaie, même s'il est imbibé de sang,
+	vous risqueriez d'arracher les caillots en cours de formation et de relancer l'hémorragie.

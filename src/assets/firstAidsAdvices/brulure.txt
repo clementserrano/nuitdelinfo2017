@@ -1,40 +1,62 @@
-Brulure
+﻿Brulure
 
 Traitement
 
-	Arrosez immédiatement la brûlure avec de l'eau froide pendant cinq minutes (y compris dans les cas de projections de produits chimiques dans les yeux).
+	Arrosez immédiatement la brûlure avec de l'eau froide pendant cinq minutes (y compris 
+	dans les cas de projections de produits chimiques dans les yeux).
 
-	Si cela n'est pas possible, couvrez la brûlure d'une serviette ou d'un drap propre imbibé d'eau froide.
+	Si cela n'est pas possible, couvrez la brûlure d'une serviette ou d'un drap propre 
+	imbibé d'eau froide.
 
-	(Qu'elle soit due aux flammes, à un liquide bouillant ou à un produit chimique, la brûlure doit être refroidie immédiatement. Cela évitera qu'elle ne s'étende davantage, en outre cela soulagera quelque peu la douleur).
-
-
-
-
-	Pendant l'arrosage, retirez les vêtements autours de la zone touchée, à l'exception de ceux qui adhérent à la peau (les vêtement synthétiques par exemple).
-	Retirez également les éventuelles bagues, bracelets, montres et chaussures du membre brûlé, car ces objets pourraient gêner la circulation du sang en cas d'enflure du membre.
-
-	N'oubliez pas que le traitement de la brûlure ne doit pas retarder les autres gestes d'urgence plus prioritaires (ventilation artificielle, arrêt des hémorragies ...).
-	N'appliquez pas de corps gras (beurre, huile ...) ou de pommade sur la brûlure. Evitez également les "remèdes de grand-mères" (pomme de terre, vinaigre, etc.) qui ne servent qu'à favoriser les infections.
-
-	Ces gestes effectués, vous devez absolument évaluer l'étendue de la surface brûlée car ce paramétre va être essentiel pour le pronostic, en particulier si il s'agit de brûlures profondes.
+	(Qu'elle soit due aux flammes, à un liquide bouillant ou à un produit chimique, 
+	la brûlure doit être refroidie immédiatement. Cela évitera qu'elle ne s'étende davantage,
+	en outre cela soulagera quelque peu la douleur).
 
 
-	Si la brûlure s'étend sur une petite surface (inférieure à celle de la paume de la main de la victime) : Essayez d'appréciez sa profondeur
+
+
+	Pendant l'arrosage, retirez les vêtements autours de la zone touchée, à l'exception de
+	ceux qui adhérent à la peau (les vêtement synthétiques par exemple).
+	Retirez également les éventuelles bagues, bracelets, montres et chaussures du membre brûlé,
+	car ces objets pourraient gêner la circulation du sang en cas d'enflure du membre.
+
+	N'oubliez pas que le traitement de la brûlure ne doit pas retarder les autres gestes
+	d'urgence plus prioritaires (ventilation artificielle, arrêt des hémorragies ...).
+	N'appliquez pas de corps gras (beurre, huile ...) ou de pommade sur la brûlure.
+	Evitez également les "remèdes de grand-mères" (pomme de terre, vinaigre, etc.)
+	qui ne servent qu'à favoriser les infections.
+
+	Ces gestes effectués, vous devez absolument évaluer l'étendue de la surface brûlée
+	car ce paramétre va être essentiel pour le pronostic, en particulier si il s'agit de brûlures profondes.
+
+
+	Si la brûlure s'étend sur une petite surface (inférieure à celle de la paume de la main de la victime) :
+	Essayez d'appréciez sa profondeur
 
 	Pendant les premières heures, seule la cause de la brûlure peut vous donner une indication :
 		
-		. Les coups de soleil, le contact bref d'eau chaude sur la peau nue, et le contact très bref avec un corps chaud entraînent en général des brûlures superficielles. Ce type de brûlures ne nécessite souvent aucun traitement complémentaire particulier, mais vous pouvez prendre de l'aspirine et des boissons et éventuellement appliquer de la biafine.
-		. Le contact prolongé avec de l'eau bouillante ou un corps chaud entraîne des brûlures profondes. Ce type de brûlures nécessite une prise en charge par un médecin.
+		. Les coups de soleil, le contact bref d'eau chaude sur la peau nue, et le contact
+		très bref avec un corps chaud entraînent en général des brûlures superficielles.
+		Ce type de brûlures ne nécessite souvent aucun traitement complémentaire particulier,
+		mais vous pouvez prendre de l'aspirine et des boissons et éventuellement appliquer de la biafine.
+		. Le contact prolongé avec de l'eau bouillante ou un corps chaud entraîne des
+		brûlures profondes. Ce type de brûlures nécessite une prise en charge par un médecin.
 
-	Si après quelques heures des cloques apparaissent ou si la zone brûlée devient blanchâtre, douloureuse mais insensible au toucher, il s'agit probablement d'une brûlure profonde qui nécessite une consultation médicale urgente.
+	Si après quelques heures des cloques apparaissent ou si la zone brûlée devient blanchâtre,
+	douloureuse mais insensible au toucher, il s'agit probablement d'une brûlure profonde qui
+	nécessite une consultation médicale urgente.
 
 
-	Si la brûlure s'étend sur une large surface (supérieure à celle de la moitié de la paume de la main de la victime) :
+	Si la brûlure s'étend sur une large surface (supérieure à celle de la moitié de la paume
+	de la main de la victime) :
 
 		. Alertez ou faites alerter les secours (15 Samu ou 18 Pompiers).
-		. En attendant leur arrivée couvrez la brûlure d'une serviette ou d'un drap propre imbibé d'eau froide. N'utilisez pas le coton hydrophile qui colle à la plaie.
-		. Allongez la victime sur une zone non brûlée ou installez-la en position demi-assise * si elle présente des troubles respiratoires (* : C'est une position dans laquelle la victime est assise et adossée par exemple à un mur. Cette position permet à la victime de se décontracter tout en libérant ses voies aériennes).
+		. En attendant leur arrivée couvrez la brûlure d'une serviette ou d'un
+		drap propre imbibé d'eau froide. N'utilisez pas le coton hydrophile qui colle à la plaie.
+		. Allongez la victime sur une zone non brûlée ou installez-la en position
+		demi-assise * si elle présente des troubles respiratoires (* : C'est une position dans
+		laquelle la victime est assise et adossée par exemple à un mur. Cette position permet à
+		la victime de se décontracter tout en libérant ses voies aériennes).
 
 
 	Surveillez la victime jusqu'à l'arrivée des secours.
@@ -42,18 +64,24 @@ Traitement
 	
 Cas des brûlures des voies respiratoires
 
-	Si la victime présente des troubles respiratoires, des douleurs thoraciques et éprouve des difficultés à avaler, il se peut que ses poumons aient été touchés (c'est surtout le cas quand l'accident se produit dans un endroit clos).
+	Si la victime présente des troubles respiratoires, des douleurs thoraciques
+	et éprouve des difficultés à avaler, il se peut que ses poumons aient été touchés
+	(c'est surtout le cas quand l'accident se produit dans un endroit clos).
 
 	Alertez ou faites alerter les secours (15 Samu ou 18 Pompiers).
 
-	Installez la victime en position demi-assise * (* : C'est une position dans laquelle la victime est assise et adossée par exemple à un mur. Cette position permet à la victime de se décontracter tout en libérant ses voies aériennes.).
+	Installez la victime en position demi-assise * (* : C'est une position dans laquelle
+	la victime est assise et adossée par exemple à un mur. Cette position permet à la victime de
+	se décontracter tout en libérant ses voies aériennes.).
 
 	Surveillez la jusqu'à l'arrivée des secours.
 	
 	
 Cas des brûlures d'origine électrique
 
-	Ces brûlures imposent l'hospitalisation de la victime, car quelle que soit la surface apparemment touchée (souvent minuscule), elles sont en général suivies de graves nécroses internes.
+	Ces brûlures imposent l'hospitalisation de la victime, car quelle que soit la surface
+	apparemment touchée (souvent minuscule), elles sont en général suivies de graves nécroses internes.
 
 	. Si la victime est consciente amenez la immédiatement au centre de soin le plus proche.
-	. Dans le cas contraire ou avec un courant à haute tension alertez ou faites alerter les secours (15 Samu ou 18 Pompiers).
+	. Dans le cas contraire ou avec un courant à haute tension alertez ou faites alerter
+	les secours (15 Samu ou 18 Pompiers).

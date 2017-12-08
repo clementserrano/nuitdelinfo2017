@@ -1,6 +1,7 @@
 ﻿La protection et l’alerte
-\n
-	Face à toute situation d’accident, la priorité est de protéger la zone puis d’alerter les secours de la façon la plus précise possible.
+
+	Face à toute situation d’accident, la priorité est de protéger la
+	zone puis d’alerter les secours de la façon la plus précise possible.
 
 Protection du lieu d'accident
 
