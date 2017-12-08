@@ -5,6 +5,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -25,7 +26,9 @@ public class ReactionActivity extends AppCompatActivity {
   Button buttonRelancer;
   LinearLayout layoutClick;
   RelativeLayout mainLayout;
+
   boolean isClickTime;
+  boolean pause;
 
   Handler handler;
 
@@ -59,26 +62,38 @@ public class ReactionActivity extends AppCompatActivity {
       @Override
       public void onClick(View view) {
 
-        buttonRelancer.setVisibility(View.VISIBLE);
-        layoutClick.setVisibility(View.VISIBLE);
+        if(!pause) {
+          pause = true;
+          buttonRelancer.setVisibility(View.VISIBLE);
+          layoutClick.setVisibility(View.VISIBLE);
 
-        if(isClickTime){
-          inTime();
-        }else{
-          tooEarly();
+          if (isClickTime) {
+            inTime();
+          } else {
+            tooEarly();
+          }
         }
       }
     });
 
-    launchReactionTest();
+    attendez.setText("Cliquez dès que l'écran deviens bleu !");
+    attendez.setGravity(Gravity.CENTER);
+    buttonRelancer.setText("Lancer");
+    buttonRelancer.setVisibility(View.VISIBLE);
+
+    pause = true;
 
   }
 
   private void launchReactionTest(){
     layoutClick.setVisibility(View.GONE);
     buttonRelancer.setVisibility(View.GONE);
+    buttonRelancer.setText("Relancer");
     attendez.setVisibility(View.VISIBLE);
     attendez.setText("ATTENDEZ !");
+    attendez.setTextColor(Color.GRAY);
+
+    pause = false;
 
     mainLayout.setBackgroundColor(Color.WHITE);
 
@@ -96,6 +111,7 @@ public class ReactionActivity extends AppCompatActivity {
     public void run() {
       mainLayout.setBackgroundColor(Color.BLUE);
       attendez.setText("CLIQUEZ !");
+      attendez.setTextColor(Color.WHITE);
       isClickTime = true;
       cliqued = System.currentTimeMillis();
     }

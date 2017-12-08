@@ -17,6 +17,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -32,6 +33,12 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
 import java.util.logging.Logger;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -154,7 +161,44 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         public void onClick(DialogInterface dialog, int id) {
           String typeAccident = (String)((Spinner)((AlertDialog)dialog).findViewById(R.id.spinner_type_accident)).getSelectedItem();
           String precisions = ((EditText)((AlertDialog)dialog).findViewById(R.id.input_precisions)).getText().toString();
-          Toast.makeText(MainActivity.this, "Type accident = "+typeAccident+", precision = "+precisions+" localisation : "+location, Toast.LENGTH_SHORT).show();
+          String lat = ""+location.getLatitude();
+          String lng = ""+location.getLongitude();
+          SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ", Locale.FRANCE);
+          String today = sdf.format(Calendar.getInstance().getTime());
+
+          try{
+            JSONObject dataToSend = new JSONObject();
+            dataToSend.put("infoType",typeAccident);
+            dataToSend.put("lattitude",lat);
+            dataToSend.put("longitude",lng);
+            dataToSend.put("heureCollecte",today);
+
+            final JSONObject cpfDataToSend = new JSONObject();
+            cpfDataToSend.put("accident",dataToSend);
+
+            Thread t = new Thread(new Runnable() {
+              @Override
+              public void run() {
+
+                try {
+
+                  RequeteInternet requete = new RequeteInternet("http://54.37.151.60:3000/api/accidents/add");
+                  String rep = requete.envoieRequete(cpfDataToSend.toString());
+
+                  Log.i("Test", "run: "+rep);
+                }catch (Exception e){
+                  Log.i("Test", "run: "+e.getMessage());
+                }
+
+              }
+            });
+
+            t.start();
+
+          }catch (JSONException e){
+            Log.e("Erreur", "onClick: "+e.getMessage(), e);
+          }
+
         }
       })
       .setNegativeButton("Annuler", new DialogInterface.OnClickListener() {

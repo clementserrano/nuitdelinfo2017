@@ -4,8 +4,13 @@
   <string name="title_activity_main">MainActivity</string>
 
   <string-array name="tpye_of_incidents">
-    <item>Accident</item>
-    <item>Personnes en danger</item>
-    <item>Autre</item>
+    <item>Etouffement</item>
+    <item>Hemorragie</item>
+    <item>Inconscience</item>
+    <item>Arrêt Cardiaque</item>
+    <item>Brulûre</item>
+    <item>Plaies</item>
+    <item>Fractures</item>
+    <item>Protection et alerte</item>
   </string-array>
 </resources>
