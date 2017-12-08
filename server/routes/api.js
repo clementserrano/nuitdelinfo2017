@@ -72,5 +72,12 @@ router.post('/accidents/add', (req, res) => {
             }); 
     }); 
 });
+
+// Ask a question to chatbot
+router.post('/chatbot/ask', (req, res) => {
+    console.log("/chatbot/ask " + req);
+    response.data = "Je réponds";
+    res.json(response); 
+});
  
 module.exports = router;

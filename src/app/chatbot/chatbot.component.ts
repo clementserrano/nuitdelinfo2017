@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {InputTextareaModule} from 'primeng/primeng';
+import {ChatbotService} from './chatbot.service';
 
 @Component({
   selector: 'app-chatbot',
@@ -10,7 +11,7 @@ export class ChatbotComponent implements OnInit {
 
   chatText: string;
   chatInput: string;
-  constructor() { }
+  constructor(private chatbotService: ChatbotService) { }
 
   ngOnInit() {
     this.chatText = '';
@@ -18,8 +19,10 @@ export class ChatbotComponent implements OnInit {
   }
 
   onSend() {
-    // envoyer le message au serveur
     this.chatText = this.chatText + 'You: ' + this.chatInput + '\n';
+    this.chatbotService.ask(this.chatInput)
+    .then(res => this.chatText = this.chatText + 'Bot: ' + res + '\n')
+    .catch(err => this.chatText = this.chatText + 'ERREUR: ' + err + '\n');
     this.chatInput = '';
   }
 

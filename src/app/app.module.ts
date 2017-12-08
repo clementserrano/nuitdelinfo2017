@@ -23,7 +23,7 @@ import { EmergencyComponent } from './emergency/emergency.component';
 import { FirstAidsComponent } from './firstAids/firstAids.component';
 import { ChatbotComponent } from './chatbot/chatbot.component';
 import { FirstAidsService } from './firstAids/first-aids.service';
-
+import { ChatbotService } from './chatbot/chatbot.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,7 +48,7 @@ import { FirstAidsService } from './firstAids/first-aids.service';
       apiKey: 'AIzaSyBjj0UhymBQx2vR4v30HAdzA_xE6wQmieg'
     })
   ],
-  providers: [DataService, FirstAidsService],
+  providers: [DataService, FirstAidsService, ChatbotService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
