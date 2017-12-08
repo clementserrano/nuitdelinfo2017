@@ -44,6 +44,7 @@ router.get('/users', (req, res) => {
 
 // Get accidents 
 router.get('/accidents', (req, res) => { 
+    console.log("/accidents " + req);
     connection((db) => { 
         db.collection('accidents') 
             .find() 
@@ -60,6 +61,7 @@ router.get('/accidents', (req, res) => {
 
 // Add accident
 router.post('/accidents/add', (req, res) => {
+    console.log("/accidents/add " + req);
     connection((db) => { 
         db.collection('accidents') 
             .insert(req.body.accident)
