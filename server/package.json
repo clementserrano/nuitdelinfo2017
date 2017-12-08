@@ -4,8 +4,8 @@
   "description": "API Pour l'application de sécurité routière créé pendant la nuit de l'info",
   "main": "index.js",
   "scripts": {
-	"prestart": "npm install",
-	"start": "node index.js"
+    "prestart": "npm install",
+    "start": "node index.js"
   },
   "keywords": [
     "swagger"

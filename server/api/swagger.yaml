@@ -45,7 +45,7 @@ paths:
         405:
           description: "Invalid input"
       x-swagger-router-controller: "Inforoute"
-  /inforoute/{infoId}:
+  /inforoute/{id}:
     get:
       tags:
       - "inforoute"
@@ -56,7 +56,7 @@ paths:
       - "application/xml"
       - "application/json"
       parameters:
-      - name: "petId"
+      - name: "id"
         in: "path"
         description: "ID de l info route a renvoyer"
         required: true
@@ -85,6 +85,10 @@ paths:
       - "application/xml"
       - "application/json"
       parameters:
+      - name: "id"
+        in: "path"
+        required: true
+        type: "string"
       - in: "body"
         name: "body"
         description: "Inforoute a mettre a jour"
@@ -109,16 +113,10 @@ paths:
       - "application/xml"
       - "application/json"
       parameters:
-      - name: "api_key"
-        in: "header"
-        required: false
-        type: "string"
-      - name: "petId"
+      - name: "id"
         in: "path"
-        description: "Inforoute a supprimer"
         required: true
-        type: "integer"
-        format: "int64"
+        type: "string"
       responses:
         400:
           description: "Invalid ID supplied"
@@ -180,16 +178,16 @@ paths:
         description: "Informations sur le geste"
         required: true
         schema:
-          $ref: "#/definitions/Order"
+          $ref: "#/definitions/Geste"
       responses:
         200:
           description: "successful operation"
           schema:
-            $ref: "#/definitions/Order"
+            $ref: "#/definitions/Geste"
         400:
           description: "Invalid Order"
       x-swagger-router-controller: "Geste"
-  /geste/{gesteId}:
+  /geste/{id}:
     delete:
       tags:
       - "geste"
@@ -200,7 +198,7 @@ paths:
       - "application/xml"
       - "application/json"
       parameters:
-      - name: "orderId"
+      - name: "id"
         in: "path"
         description: "ID du geste à supprimer"
         required: true
