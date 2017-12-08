@@ -15,4 +15,9 @@ result:any;
       .map(result => this.result = result.json().data);
   }
 
+  getAccidents(){
+    return this._http.get("api/accidents")
+      .map(result => this.result = result.json().data);
+  }
+
 }
