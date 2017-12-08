@@ -2,12 +2,129 @@
  * 
  */
 
-launchBot();
+//launchBot();
 
-function launchBot() {
-	var negation = Array('pas', 'ne');
-	var good = Array('bien', 'ok', 'oui', 'si', 'va', 'carrément');
-	var bad = Array('mal', 'non', 'peu');
+var negation = Array('pas', 'ne');
+var good = Array('bien', 'ok', 'oui', 'si', 'va', 'carrément');
+var bad = Array('mal', 'non', 'peu');
+
+var sommeil = new Map();
+sommeil.set('sommeil', false);
+sommeil.set('somnolence', false);
+sommeil.set('fatigue', false);
+sommeil.set('fatiguer', false);
+sommeil.set('fatigué', false);
+sommeil.set('dormi', true);
+sommeil.set('dormis', true);
+
+var alcool = new Map();
+alcool.set('alcool', false);
+alcool.set('verre', false);
+alcool.set('verres', false);
+alcool.set('bu', false);
+alcool.set('boire', false);
+alcool.set('bourré', false);
+
+var state = "init";
+
+function getAnswer(reply) {
+
+	var humor = getHumor(reply);
+
+	var positif = humor[0];
+	var negatif = humor[1];
+
+	console.log("postiv = " + positif);
+	console.log("negatif = " + negatif);
+
+	switch (state) {
+	case "init":
+		return "Bonjour, comment allez vous ?";
+		break;
+	case "start":
+
+		if (positif) {
+			state = "pos";
+			return "Super ! Est-ce que vous manquez de sommeil ?";
+		} else if (negatif) {
+			state = "neg";
+			return "Quelle problème avez-vous ?";
+		} else {
+			state = "missed";
+			return "Vous pensez-vous apte à conduire ?";
+		}
+		break;
+	case "missed":
+		if (negatif) {
+			state = "neg";
+			return "Quelle problème avez-vous ?";
+		} else {
+			state = "pos";
+			return "Super ! Est-ce que vous manquez de sommeil ?";
+		}
+		break;
+	case "neg":
+
+		etat = getState(reply);
+		// Sommeil
+		if (etat[0]) {
+			state = "init";
+			return "Il faut faire très attention ! On ne s'en rend pas forcément compte mais ça peut s'avérer mortel !\n";
+			// Alcool
+		} else if (etat[1]) {
+			state = "alcool"
+			return "Et vous êtes sobre ? ( ͡° ͜ʖ ͡°)";
+		} else if (etat[2]) {
+			state = "init";
+			return "Bonne nouvelle ! Bonne route alors !\n";
+		} else {
+			state = "init";
+			return "Je n'ai pas compris ce que vous avez, mais dans le doute abstenez vous !\n";
+		}
+
+		break;
+	case "pos":
+		if (positif) {
+			state = "init";
+			return "Il faut faire très attention ! On ne s'en rend pas forcément compte mais ça peut s'avérer mortel !\n";
+		} else {
+			state = "alcool"
+			return "Et vous êtes sobre ? ( ͡° ͜ʖ ͡°)";
+		}
+		break;
+	case "alcool":
+
+		if (getHumor(reply)[1] || getState(reply)[2]) {
+			state = "boisson";
+			return "Ah ! C'est problématique, combien de verres avez-vous bu ?";
+		} else {
+			state = "init";
+			return "Bonne route alors !\n";
+		}
+
+		break;
+	case "boisson":
+
+		var n = getInt(reply);
+
+		if (isNaN(n)) {
+			state = "init";
+			return "Je n'ai pas compris, mais dans le doute mieux vaut s'abstenir ! Essayer de dormir sur place ou d'attendre un peu.\n";
+		} else {
+			if (n > 2) {
+				state = "init";
+				return "Il faudrait que vous attendiez un certain temps avant de prendre le volant ! Cela pourrait être dangereux.\n";
+			} else {
+				state = "init";
+				return "Excellent ! Bonne route !\n";
+			}
+		}
+
+		break;
+	}
+}
+
+/*function launchBot() {
 
 	/*
 	 * var sommeil = new Map(['sommeil', false], ['somnolence', false],
@@ -19,24 +136,7 @@ function launchBot() {
 	 * ['bourré', false]);
 	 */
 
-	var sommeil = new Map();
-	sommeil.set('sommeil', false);
-	sommeil.set('somnolence', false);
-	sommeil.set('fatigue', false);
-	sommeil.set('fatiguer', false);
-	sommeil.set('fatigué', false);
-	sommeil.set('dormi', true);
-	sommeil.set('dormis', true);
-
-	var alcool = new Map();
-	alcool.set('alcool', false);
-	alcool.set('verre', false);
-	alcool.set('verres', false);
-	alcool.set('bu', false);
-	alcool.set('boire', false);
-	alcool.set('bourré', false);
-
-	var answer = prompt("Bonjour, comment allez vous ?");
+	/*var answer = prompt("Bonjour, comment allez vous ?");
 
 	var humor = getHumor(answer);
 
@@ -61,7 +161,8 @@ function launchBot() {
 }
 
 function posAnswer() {
-	answer = prompt("Super ! Est-ce que vous manquez de sommeil ?");
+	state = "pos";
+	return "Super ! Est-ce que vous manquez de sommeil ?";
 	if (getHumor(answer)[0]) {
 		alert("Il faut faire très attention ! On ne s'en rend pas forcément compte mais ça peut s'avérer mortel !")
 	} else {
@@ -177,7 +278,7 @@ function getState(sentence) {
 		 * console.log("postiv = "+positif); console.log("negatif = "+negatif);
 		 * console.log("negate = "+negate);
 		 */
-	});
+	/*});
 
 	return [ som, alc, ok ]
 }
@@ -224,4 +325,4 @@ function getHumor(sentence) {
 	}
 
 	return [ positif, negatif ];
-}
+}*/
