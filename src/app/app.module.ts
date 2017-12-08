@@ -9,6 +9,7 @@ import {InputTextareaModule} from 'primeng/primeng';
 import {ButtonModule} from 'primeng/primeng';
 import { AgmCoreModule } from '@agm/core';
 import { FormsModule } from '@angular/forms';
+import {MenuModule} from 'primeng/primeng';
 
 // Services
 import { DataService } from './data.service';
@@ -21,6 +22,7 @@ import { MapComponent } from './map/map.component';
 import { EmergencyComponent } from './emergency/emergency.component';
 import { FirstAidsComponent } from './firstAids/firstAids.component';
 import { ChatbotComponent } from './chatbot/chatbot.component';
+import { FirstAidsService } from './firstAids/first-aids.service';
 
 @NgModule({
   declarations: [
@@ -40,12 +42,13 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
     PanelModule,
     InputTextareaModule,
     ButtonModule,
+    MenuModule,
     NgbModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBjj0UhymBQx2vR4v30HAdzA_xE6wQmieg'
     })
   ],
-  providers: [DataService],
+  providers: [DataService, FirstAidsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
