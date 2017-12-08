@@ -1,3 +1,6 @@
-<p>
-  first aids works!
-</p>
+<div class="ui-g" >
+    <div class="ui-g-4 ui-sm-12">
+      <p-menu [model]="items" (onclick)="displayAdvice(item.id)"></p-menu>
+    </div>
+    <div class="ui-g-8 ui-sm-12 firstAidsAdvicesBox">{{firstAidsAdvices}}</div>
+</div>
