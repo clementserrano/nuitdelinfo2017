@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">My Application</string>
+  <string name="title_activity_main_map">Map</string>
+  <string name="title_activity_main">MainActivity</string>
+
+  <string-array name="tpye_of_incidents">
+    <item>Accident</item>
+    <item>Personnes en danger</item>
+    <item>Autre</item>
+  </string-array>
+</resources>
