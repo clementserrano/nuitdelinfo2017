@@ -16,13 +16,19 @@ export class MapComponent implements OnInit {
 
   constructor(private _dataService: DataService) {
     this._dataService.getAccidents()
-    .subscribe(res => this.positions = res);
+    .subscribe(res => {
+      res.forEach(function(p){
+        p.lattitude = Number(p.lattitude);
+        p.longitude = Number(p.longitude);
+      });
+      this.positions = res;
+    });
   }
 
   ngOnInit() {
   }
 
-  /*mark(position){
-    this.markedPositions.push(position);
-  }*/
+  mark(position){
+    //this.markedPositions.push(position);
+  }
 }

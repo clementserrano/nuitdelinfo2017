@@ -1,8 +1,7 @@
 <div class="map">
   <agm-map [latitude]="lat" [longitude]="lng">
-    <div *ngFor="let position of positions">
-      <agm-marker [latitude]="position.lattitude" [longitude]="position.longitude"></agm-marker>
-    </div>
+      <agm-marker *ngFor="let position of positions" [latitude]="position.lattitude" 
+      [longitude]="position.longitude"></agm-marker>
   </agm-map>
 </div>
 
@@ -12,10 +11,10 @@
   <table class="table table-hover table-sm">
       <tbody>
         <tr class="row" (click)="mark()" *ngFor="let position of positions">
-          <td class="col-md-2">{{position.heureCollecte}}</td>
-          <td class="col-md-6">{{position.infoType}}</td>
-          <td class="col-md-2">{{position.longitude}}</td>
-          <td class="col-md-2">{{position.lattitude}}</td>
+          <td class="col-md-4 overflow-hidden">{{position.heureCollecte}}</td>
+          <td class="col-md-4 overflow-hidden">{{position.infoType}}</td>
+          <td class="col-md-2 overflow-hidden">{{position.longitude}}</td>
+          <td class="col-md-2 overflow-hidden">{{position.lattitude}}</td>
         </tr>
       </tbody>
     </table>

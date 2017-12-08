@@ -9,3 +9,7 @@ agm-map {
 .logs{
     margin-top: 20px;
 }
+
+.overflow-hidden{
+    overflow: hidden;
+}
