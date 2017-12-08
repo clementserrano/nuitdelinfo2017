@@ -1,8 +1,12 @@
 // Modules
 import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpModule } from '@angular/http';
+import {PanelModule} from 'primeng/primeng';
+import { AgmCoreModule } from '@agm/core';
+
 
 // Services
 import { DataService } from './data.service';
@@ -11,18 +15,30 @@ import { DataService } from './data.service';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { AccueilComponent } from './accueil/accueil.component';
-
+import { MapComponent } from './map/map.component';
+import { EmergencyComponent } from './emergency/emergency.component';
+import { FirstAidsComponent } from './firstAids/firstAids.component';
+import { ChatbotComponent } from './chatbot/chatbot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AccueilComponent
+    AccueilComponent,
+    MapComponent,
+    EmergencyComponent,
+    FirstAidsComponent,
+    ChatbotComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     HttpModule,
     AppRoutingModule,
-    NgbModule.forRoot()
+    PanelModule,
+    NgbModule.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBjj0UhymBQx2vR4v30HAdzA_xE6wQmieg'
+    })
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
