@@ -1,5 +1,9 @@
 # Nuitdelinfo2017
 
+## Info
+
+Un compte rendu pdf est disponible dans le répertoire d'origine.
+
 ## Les instructions du porc poilu
 
 Installer :
